@@ -1,1 +1,26 @@
-// TODO
+.posts {
+  .post {
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto;
+
+    .info {
+      display: flex;
+      align-items: center;
+  
+      time, span {
+        font-size: .875rem;
+        color: var(--info);
+        display: flex;
+        align-items: center;
+  
+        svg {
+          margin-right: .5rem;
+        }
+      }
+      span {
+        margin-left: 1.625rem;
+      }
+    }
+  }
+}
